@@ -44,13 +44,13 @@ class Requests extends React.Component{
       <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSekeTGDn3HlDHcXdmqvXAFoEcTU0uXchGpq6GxKo9f5n86FxA/formResponse?embedded=true" className="form" onSubmit={this.handleSubmit} style={{"fontFamily": "Josefin Sans", "color":"#254F5E"}}>
        <div className="form-group row justify-content-center">
         <div className="col-lg-4 col-sm-12 d-flex justify-content-center mb-3">
-         <input name="entry.101390416" placeholder="NAME" style={entryStyle} type="text" onChange={this.handleInputChange} value={this.state["entry.101390416"]}/>
+         <textarea className="form-control" rows="1" name="entry.101390416" placeholder="NAME" style={entryStyle} type="text" onChange={this.handleInputChange} value={this.state["entry.101390416"]}/>
         </div>
         <div className="col-lg-4 col-sm-12 d-flex justify-content-center mb-3">
-         <input name="entry.233152642" placeholder="EMAIL" required style={entryStyle} onChange={this.handleInputChange} value={this.state["entry.233152642"]} type="email"/>
+         <textarea className="form-control" rows="1" name="entry.233152642" placeholder="EMAIL" required style={entryStyle} onChange={this.handleInputChange} value={this.state["entry.233152642"]} type="email"/>
         </div>
         <div className="col-lg-4 col-sm-12 d-flex justify-content-center mb-3">
-         <input name="entry.1284976770" placeholder="PHONE NUMBER" style={entryStyle} type="tel" onChange={this.handleInputChange} value={this.state["entry.1284976770"]} />
+         <textarea className="form-control" rows="1" name="entry.1284976770" placeholder="PHONE NUMBER" style={entryStyle} type="tel" onChange={this.handleInputChange} value={this.state["entry.1284976770"]} />
         </div>
        </div>
        <div className="form-group row justify-content-center">
@@ -63,7 +63,7 @@ class Requests extends React.Component{
        </div>
        <div className="row justify-content-center">
         <div className="form-group col-lg-8 col-sm-12 justify-content-center">
-         <input name="entry.194650238" placeholder="EVENT LOCATION & VENUE" style={entryStyle} type="text" onChange={this.handleInputChange} value={this.state["entry.194650238"]} />
+         <textarea className="form-control" rows="1" name="entry.194650238" placeholder="EVENT LOCATION & VENUE" style={entryStyle} type="text" onChange={this.handleInputChange} value={this.state["entry.194650238"]} />
         </div>
        </div>
        <div className="row justify-content-center">
@@ -73,22 +73,22 @@ class Requests extends React.Component{
        </div>
        <div className="row justify-content-center">
         <div className="form-group col-lg-8 col-sm-12 justify-content-center">
-         <input name="entry.138366603" placeholder="PHOTOGRAPHER / PLANNER / STYLIST DETAILS" style={entryStyle} type="text" onChange={this.handleInputChange} value={this.state["entry.138366603"]}/>
+         <textarea className="form-control" rows = {window.innerWidth > 600? "1":"2"} name="entry.138366603" placeholder="PHOTOGRAPHER / PLANNER / STYLIST DETAILS" style={entryStyle} type="text" onChange={this.handleInputChange} value={this.state["entry.138366603"]}/>
         </div>
        </div>
        <div className="row justify-content-center">
         <div className="form-group col-lg-8 col-sm-12 justify-content-center">
-         <input name="entry.440717690" placeholder="FLORAL BUDGET" style={entryStyle} type="text" onChange={this.handleInputChange} value={this.state["entry.440717690"]} />
+         <textarea className="form-control" rows="1" name="entry.440717690" placeholder="FLORAL BUDGET" style={entryStyle} type="text" onChange={this.handleInputChange} value={this.state["entry.440717690"]} />
         </div>
        </div>
        <div className="row justify-content-center">
         <div className="form-group col-lg-8 col-sm-12 justify-content-center">
-         <input name="entry.186585142" placeholder="IF YOU WERE A COCKTAIL... WHAT WOULD YOU BE?... Libby would be an Elderflower Sour." style={entryStyle} type="text" onChange={this.handleInputChange} value={this.state["entry.186585142"]}/>
+         <textarea className="form-control" rows= {window.innerWidth > 600? "1":"3"} name="entry.186585142" placeholder="IF YOU WERE A COCKTAIL... WHAT WOULD YOU BE?... Libby would be an Elderflower Sour." style={entryStyle} type="text" onChange={this.handleInputChange} value={this.state["entry.186585142"]}/>
         </div>
        </div>
        <div className="row justify-content-center">
         <div className="form-group col-lg-8 col-sm-12 justify-content-center">
-         <input name="entry.1014733185" placeholder="HOW DID YOU HEAR ABOUT US" style={entryStyle} type="text" onChange={this.handleInputChange} value={this.state["entry.1014733185"]} />
+         <textarea className="form-control" rows="1" name="entry.1014733185" placeholder="HOW DID YOU HEAR ABOUT US" style={entryStyle} type="text" onChange={this.handleInputChange} value={this.state["entry.1014733185"]} />
         </div>
        </div>
        <div className="form-group row justify-content-center">

@@ -128,7 +128,9 @@ text-transform:uppercase
   font-family: 'Josefin Sans';
   font-weight: 100;
   font-size: 16px;
-  letter-spacing: 2px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
   }
 
 @media screen and (min-width: 1000px) {
