@@ -36,3 +36,7 @@ jobs:
     - name: Copy files to the production website with the AWS CLI
       run: |
         aws s3 sync ./build s3://annabellastudios
+
+    - name: Invalidate cache so updates are visible to users 
+      run: |
+        aws cloudfront create-invalidation --distribution-id ETXB0APQMEWXU --paths "/*"
