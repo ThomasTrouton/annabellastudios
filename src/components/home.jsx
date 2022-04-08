@@ -57,8 +57,8 @@ function Home() {
       </p>
       <p style={{"fontFamily": "Libre Baskerville",  "color":"#254F5E", "fontSize": "14px"}}>
         Annabella Studios is a unique floral design studio based in Queensland, Australia.<br/>
-        Creating abundant, seasonal, colourful and rambling florals for weddings & events across Queensland…<br/>
-        Australia and beyond. We are now taking bookings for 2022 & 2023.
+        Creating abundant, seasonal, colourful & rambling florals for weddings & events across Queensland…<br/>
+        Australia & beyond. We are now taking bookings for 2022 & 2023.
       </p>
      </div>
     </div>
@@ -101,7 +101,7 @@ function Home() {
         <div className="container" style= {{"height":"100%", "backgroundColor":"#94a395", "paddingLeft": "20px", "paddingRight": "20px", "fontFamily": 'Cormorant Garamond', "color":"#f2eae7", "textAlign":"center"}}>
           <div className="row align-items-center justify-content-center" style={{"height": "100%"}}>
           <div className="row pt-5 mb-5 justify-content-around" style={{"fontFamily": "Cormorant Garamond", "fontWeight": "300", "fontSize": "32px", "letterSpacing": "2px"}} >MEET LIBBY</div>
-          <div className="row mt-0 mb-5 justify-content-around" style={{"fontFamily": "Cormorant Garamond", "fontWeight": "300", "fontSize": "14px", "letterSpacing": "2px", "paddingLeft": "20%", "paddingRight": "20%"}}> Hello, my name is Libby Annabella. I am the creator & designer behind Annabella Studios… I look forward to sitting and sipping a coffee or cocktail with you while we work out how to bring your floral fancies to life.</div>
+          <div className="row mt-0 mb-5 justify-content-around" style={{"fontFamily": "Cormorant Garamond", "fontWeight": "300", "fontSize": "14px", "letterSpacing": "2px", "paddingLeft": "20%", "paddingRight": "20%"}}> Hello, my name is Libby Annabella. I am the creator & designer behind Annabella Studios… I look forward to sitting & sipping a coffee or cocktail with you while we work out how to bring your floral fancies to life.</div>
           <div className="row mt-0 mb-5 justify-content-around">
           <a href="/story" >
             <button className="btn btn-default para-1" style={{"borderRadius": "0px", "color":"#f2eae7", "borderColor":"#f2eae7", "background": "none"}}>
