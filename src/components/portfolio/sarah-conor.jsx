@@ -38,7 +38,7 @@ function SarahConor() {
         Photographer
        </p>
        <p className="descr-1">
-        .
+         Harry Richards
        </p>
       </div>
      </div>
