@@ -44,16 +44,20 @@ class Hello extends React.Component{
        </a>
       </ul>
       <p style={{"fontFamily": "Josefin Sans", "fontWeight": "300", "fontSize": "14px", "letterSpacing": "1px", "textTransform":"uppercase"}}>
-       <br/>
-       OUR CURRENT LOCATION
+      CURRENT LOCATION
       </p>
       <p style={{"fontFamily": "Cormorant Garamond, cursive", "fontWeight": "300", "fontSize": "14px", "letterSpacing": "2px"}}>
        Queensland, AUSTRALIA
        <br/>
        <br/>
        but don't worry, we travel... JUST ASK
+       <br/> 
        <br/>
-       hello@annabellastudios.com
+       <a href="mailto:hello@annabellastudios.com" style = {{color:"white"}}>
+      hello@annabellastudios.com
+      </a>
+       <br/>
+       0493 364 899
       </p>
      </div>
     </div>
