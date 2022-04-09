@@ -1,5 +1,6 @@
 import React from "react";
 import me from "../assets/mainpage/me.jpg"
+import { Link } from "react-router-dom";
 
 const textStyle = {"fontFamily": "Cormorant Garamond", "fontWeight": "300", "fontSize": "14px", "letterSpacing": "2px"}
 const headingStyle = {"fontFamily": "Cormorant Garamond", "fontWeight": "300", "fontSize": "28px", "letterSpacing": "2px", "textTransform":"uppercase"}
@@ -27,7 +28,7 @@ function Story() {
        </p>
        <p style={textStyle}>
         Annabella Studio’s signature style is creating out of the ordinary florals for weddings, events & flower styling… whether for an elopement or a sit down formal event for hundreds of your closest friends. We will create magic with an abundance of colour & texture.<br/><br/>
-        We offer quotations following a virtual or in person consultation. Please follow the link to event requests to organise a coffee or a cocktail with me to discuss your event or wedding.        
+        We offer quotations following a virtual or in person consultation. Please follow the link to <Link to="/requests" style={{"color": "#254F5E"}}> event requests</Link> to organise a coffee or a cocktail with me to discuss your event or wedding.        
        </p>
        <br/>
        <p style={headingStyle}>
