@@ -23,7 +23,7 @@ function Footer() {
     <div className="row mt-0 pt-0 pb-3 justify-content-center fluid" style={{"backgroundColor": "#94a395"}}>
     <img src = {monogram} alt="annabella studios monogram" style={{"height": "36pt"}}/>
     </div>
-    <p className="text-center mb-0 pb-3" style={{"fontFamily": 'Josefin Sans', "fontWeight": "300",  color:"white", "fontSize": "14px", "letterSpacing": "1px", "borderTop": "10pt"}}> COPYRIGHT © 2022 ANNABELLA STUDIOS &nbsp; - &nbsp; ALL RIGHTS RESERVED </p>
+    <p className="text-center mb-0 pb-3" style={{"fontFamily": 'Cormorant Garamond', "fontWeight": "300",  color:"white", "fontSize": "14px", "letterSpacing": "1px", "borderTop": "10pt"}}> COPYRIGHT © 2022 ANNABELLA STUDIOS &nbsp; - &nbsp; ALL RIGHTS RESERVED </p>
     </div>
   );
 }
