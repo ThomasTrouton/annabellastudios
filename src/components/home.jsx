@@ -61,6 +61,15 @@ function Home() {
         Australia & beyond. We are now taking bookings for 2022 & 2023.
       </p>
      </div>
+     
+      <div className="col text-center pt-2">
+      <a href="/requests" >
+       <button className="btn btn-default para-1" style={{"borderRadius": "0px", "borderColor":"#254F5E", "background": "none"}}>
+        Enquire Now
+       </button>
+       </a>
+     </div>
+
     </div>
     <div className="container-fluid">
      <div className="row mb-4 px-lg-5 justify-content-around">
