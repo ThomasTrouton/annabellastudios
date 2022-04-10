@@ -36,7 +36,7 @@ class Requests extends React.Component{
       <p className="tab-heading">
        Planning an event?
       </p>
-      <p style={{"fontFamily": "Libre Baskerville",  "color":"#254F5E", "fontSize": "14px"}}>
+      <p style={{"fontFamily": "Libre Baskerville",  "color":"#254F5E", "fontSize": "16px"}}>
        Let's make magic
       </p>
      </div>

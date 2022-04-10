@@ -27,7 +27,7 @@ function Navigation() {
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" style={{border: '0px', position: 'absolute', right: '0%', top: '15px'}} />
             <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="mx-auto justify-content-center align-items-center" style={{fontFamily: '"Cormorant Garamond", serif', fontSize: '11px', letterSpacing: '1px', width: '100%'}}>
+              <Nav className="mx-auto justify-content-center align-items-center" style={{fontFamily: '"Cormorant Garamond", serif', fontSize: '14px', letterSpacing: '1px', width: '100%'}}>
                 <Nav.Link style={{width: '15%', minWidth: '150px', color: '#254F5E', 'textAlign': 'center'}} href="/story"> STORY</Nav.Link>
                 <Nav.Link style={{width: '15%', minWidth: '150px', color: '#254F5E', 'textAlign': 'center'}} href="/portfolio"> PORTFOLIO</Nav.Link>
                 <Navbar.Brand style={{width: '30%', color: '#254F5E'}} href="/" className="d-none d-lg-block">

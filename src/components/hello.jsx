@@ -27,11 +27,11 @@ class Hello extends React.Component{
     <div className="container-fluid" style={{"fontFamily": "Cormorant Garamond", "color":"#254F5E", "position": "relative", "paddingRight":"0", "paddingLeft":"0"}}>
      <img loading="lazy" src={roses} alt = "peach roses background" style={{"width":"100%"}}/>
      <div className="text-block custom-overlay" style={{"fontFamily": "Cormorant Garamond", "color":"white", "textAlign":"center"}}>
-      <p style={{"fontFamily": "Cormorant Garamond", "fontWeight": "300", "fontSize": "14px", "letterSpacing": "2px", "textTransform":"uppercase"}}>
+      <p style={{"fontFamily": "Cormorant Garamond", "fontWeight": "300", "fontSize": "16px", "letterSpacing": "2px", "textTransform":"uppercase"}}>
        STAY UP TO DATE
        <br/>
       </p>
-      <p style={{"fontFamily": "Josefin Sans", "fontWeight": "300", "fontSize": "14px", "letterSpacing": "2px", "textTransform":"uppercase"}}>
+      <p style={{"fontFamily": "Josefin Sans", "fontWeight": "300", "fontSize": "16px", "letterSpacing": "2px", "textTransform":"uppercase"}}>
        FOLLOW OUR FLORAL ADVENTURES
        <br/>
       </p>
@@ -43,10 +43,10 @@ class Hello extends React.Component{
         <img src={pinterest} alt = "pinterest icon" style={{"height": "12pt"}}/>
        </a>
       </ul>
-      <p style={{"fontFamily": "Josefin Sans", "fontWeight": "300", "fontSize": "14px", "letterSpacing": "1px", "textTransform":"uppercase"}}>
+      <p style={{"fontFamily": "Josefin Sans", "fontWeight": "300", "fontSize": "16px", "letterSpacing": "1px", "textTransform":"uppercase"}}>
       CURRENT LOCATION
       </p>
-      <p style={{"fontFamily": "Cormorant Garamond, cursive", "fontWeight": "300", "fontSize": "14px", "letterSpacing": "2px"}}>
+      <p style={{"fontFamily": "Cormorant Garamond, cursive", "fontWeight": "300", "fontSize": "16px", "letterSpacing": "2px"}}>
        Queensland, AUSTRALIA
        <br/>
        <br/>
@@ -66,7 +66,7 @@ class Hello extends React.Component{
       <p className="tab-heading">
        SAY HELLO
       </p>
-      <p style={{"fontFamily": "Libre Baskerville", "color":"#254F5E", "fontSize": "14px"}}>
+      <p style={{"fontFamily": "Libre Baskerville", "color":"#254F5E", "fontSize": "16px"}}>
        I'd love to hear from you
       </p>
      </div>
