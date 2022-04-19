@@ -9,3 +9,5 @@ export { default as Posts } from "./portfolio/posts";
 export { default as SummerLunch } from "./portfolio/summer-lunch";
 export { default as BabyShower } from "./portfolio/baby-shower";
 export { default as SarahConor } from "./portfolio/sarah-conor";
+export { default as BirthdayCelebration } from "./portfolio/birthday-celebration";
+

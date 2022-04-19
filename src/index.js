@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import {
   Navigation,
   Footer,
@@ -14,7 +14,8 @@ import {
   Story,
   SummerLunch,
   BabyShower,
-  SarahConor
+  SarahConor,
+  BirthdayCelebration
 } from "./components";
 
 ReactDOM.render(
@@ -29,6 +30,7 @@ ReactDOM.render(
       <Route path="/portfolio/summer-long-lunch" element={<SummerLunch />} />
       <Route path="/portfolio/baby-shower" element={<BabyShower/>} />
       <Route path="/portfolio/sarah-conor" element={<SarahConor/>} />      
+      <Route path="/portfolio/birthday-celebration" element={<BirthdayCelebration/>} />      
     </Routes>
     <Footer />
   </Router>,

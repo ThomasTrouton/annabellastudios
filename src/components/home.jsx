@@ -6,7 +6,7 @@ import roses from "../assets/mainpage/roses.jpg"
 import whiteArrowLeft from "../assets/mainpage/white-arrow-left.png"
 import whiteArrowRight from "../assets/mainpage/white-arrow-right.png"
 import mainpg1 from "../assets/mainpage/41360F1A-F236-4CF9-BE9C-1A88936B0DB5.jpeg"
-import mainpg2 from "../assets/mainpage/5560F391-E416-4009-A975-07B97204A31B_1_201_a.jpeg"
+import mainpg2 from "../assets/mainpage/Libby60th-27.jpg"
 import mainpg3 from "../assets/mainpage/E0BABC43-189C-4FA3-8350-9A2B49044E0C.jpeg"
 import mainpg4 from "../assets/mainpage/786C7902-844E-4B55-BD88-1EC0219C1162_1_201_a.jpeg"
 import tables from "../assets/mainpage/tables.jpg"
@@ -63,7 +63,7 @@ function Home() {
      </div>
      
       <div className="col text-center pt-2">
-      <a href="/requests" >
+      <a href="/" >
        <button className="btn btn-default para-1" style={{"borderRadius": "0px", "borderColor":"#254F5E", "background": "none"}}>
         Enquire Now
        </button>
