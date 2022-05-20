@@ -34,7 +34,7 @@ function Story() {
         Philosophy
        </p>
        <p style={textStyle}>
-        Libby’s designs build on the the philosophy of abundance in nature, the joy of celebration, passion, and the enchantment of rambling blooms.
+        Libby’s designs build on the philosophy of abundance in nature, the joy of celebration, passion, and the enchantment of rambling blooms.
        </p>
        <p style={headingStyle}>
         Libby Annabella
