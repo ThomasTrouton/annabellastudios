@@ -14,7 +14,7 @@ function Story() {
         The Story of Annabella Studios
       </p>
       <p style={{"fontFamily": "Cormorant Garamond", "fontWeight": "300", "fontSize": "16px", "letterSpacing": "2px"}}>
-        Annabella Studios is a floral design studio in Queensland, specialising in wedding & event floristry <br/> inspired by the harmony of nature &  the dynamic of seasonal changes! 
+        Annabella Studios is a floral design studio in Queensland, specialising in wedding & event floristry <br/> inspired by the harmony of nature & the dynamics of seasonal change!
       </p>
      </div>
     <div className="container mb-5">
@@ -34,13 +34,13 @@ function Story() {
         Philosophy
        </p>
        <p style={textStyle}>
-        Libby’s designs are built on a philosophy of abundance in nature, joy of celebration, passion & the enchantment of rambling blooms.
+        Libby’s designs build on the philosophy of abundance in nature, the joy of celebration, passion, and the enchantment of rambling blooms.
        </p>
        <p style={headingStyle}>
         Libby Annabella
        </p>
        <p style={textStyle}>
-        Originally from New Zealand, Libby has followed flowers across the globe. Living & working in London, Amsterdam, Dublin & across Europe, Libby has chased design, floral fulfillment & the romance of travel. These experiences have created, inspired & infused Libby’s colourful, rambling & floralful style.<br/><br/>
+        Originally from New Zealand, Libby has followed flowers across the globe. Living & working in London, Amsterdam, Dublin & across Europe, Libby has chased design, floral fulfillment & the romance of travel. These experiences have created, inspired & infused Libby’s colourful, whimsical & floralful style.<br/><br/>
         Currently based in Brisbane, Australia, but with no fixed compass, Libby will travel wherever the flowers will take her, specialising in weddings, events & flower styling across Australia, New Zealand & the globe.<br/><br/>
         If Libby was a cocktail… she would be an Elderflower Sour. It's a delightful mix of acidity & floral elderflower flavor that is frothy & sprinkled with rosie delight… what cocktail would you be?
        </p>
