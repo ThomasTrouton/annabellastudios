@@ -14,7 +14,7 @@ function Story() {
         The Story of Annabella Studios
       </p>
       <p style={{"fontFamily": "Cormorant Garamond", "fontWeight": "300", "fontSize": "16px", "letterSpacing": "2px"}}>
-        Annabella Studios is a floral design studio in Queensland, specialising in wedding & event floristry <br/> inspired by the harmony of nature &  the dynamic of seasonal changes! 
+        Annabella Studios is a floral design studio in Queensland, specialising in wedding & event floristry <br/> inspired by the harmony of nature & the dynamics of seasonal change!
       </p>
      </div>
     <div className="container mb-5">
